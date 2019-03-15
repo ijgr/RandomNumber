@@ -26,12 +26,12 @@ public class RandomNumber
       number = input.nextInt(); // obtain user input
      
    
-      // tally counts for 6,000,000 rolls of a die
+      // tally counts for 6,000,000 
       for (number=1; number <= 6000000; number++) 
       {
-         int face = 1+ randomNumbers.nextInt(9); // number from 1 to 6
+         int face = 1+ randomNumbers.nextInt(9); // number from 1 to 9
    
-         // use face value 1-6 to determine which counter to increment
+         // use face value 1-9 to determine which counter to increment
          switch (face) 
          {   
             case 1:
