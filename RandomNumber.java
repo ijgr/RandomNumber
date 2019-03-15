@@ -1,9 +1,8 @@
-//MaximumFinder.java
-//method maximum with three double parameters.
+//RandomNumber.java
 import java.util.Scanner;
 import java.security.SecureRandom;
 
-public class MathTest//MaximumFinder
+public class RandomNumber
 {
    public static void main(String[] args)
    {
@@ -12,19 +11,19 @@ public class MathTest//MaximumFinder
 	  Scanner input = new Scanner(System.in);
 
       int frequency1 = 0; // count of 1s rolled
-	  int frequency2 = 0; // count of 2s rolled
+      int frequency2 = 0; // count of 2s rolled
       int frequency3 = 0; // count of 3s rolled
       int frequency4 = 0; // count of 4s rolled
       int frequency5 = 0; // count of 5s rolled
       int frequency6 = 0; // count of 6s rolled
-	  int frequency7 = 0; // count of 6s rolled
-	  int frequency8 = 0; // count of 6s rolled
-	  int frequency9 = 0; // count of 6s rolled
+      int frequency7 = 0; // count of 6s rolled
+      int frequency8 = 0; // count of 6s rolled
+      int frequency9 = 0; // count of 6s rolled
 				  
-	  int number;
+      int number;
 	  
-	  System.out.print("Enter a number ");
-	  number = input.nextInt(); // obtain user input
+      System.out.print("Enter a number ");
+      number = input.nextInt(); // obtain user input
      
    
       // tally counts for 6,000,000 rolls of a die
@@ -37,8 +36,8 @@ public class MathTest//MaximumFinder
          {   
             case 1:
                ++frequency1; // increment the 1s counter
-			   break; 
-			case 2:
+		  break; 
+       	   case 2:
                ++frequency2; // increment the 2s counter
                break;
             case 3:
@@ -53,14 +52,14 @@ public class MathTest//MaximumFinder
             case 6:
                ++frequency6; // increment the 6s counter
                break;
-			case 7:
-               ++frequency7; // increment the 6s counter
+	    case 7:
+               ++frequency7; // increment the 7s counter
                break;
-			case 8:
-               ++frequency8; // increment the 6s counter
+	    case 8:
+               ++frequency8; // increment the 8s counter
                break;
-			case 9:
-               ++frequency9; // increment the 6s counter
+	    case 9:
+               ++frequency9; // increment the 9s counter
                break;
          } 
       } 
@@ -69,4 +68,4 @@ public class MathTest//MaximumFinder
       System.out.printf("%d",frequency1, frequency2, frequency3, frequency4,
          frequency5, frequency6);
    }
-} // end class RollDie
+} // end class 
